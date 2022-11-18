@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;    
+}
+
+body{
+    background-color: rgb(8, 30, 71);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 100vh;
+    color: aliceblue;
+}
+
+.hide{
+    display: none !important;
+}
+
+.container{
+    min-height: 400px;
+    min-width: 400px;
+    background-color: rgb(9, 9, 48);
+    padding: 2rem;
+}
+
+/* imc form */
+#calc-container h2{
+    text-align: center;
+    margin-bottom: 2rem;
+}
